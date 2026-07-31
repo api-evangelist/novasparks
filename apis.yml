@@ -1,8 +1,24 @@
 aid: novasparks
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/novasparks.png
 name: NovaSparks
-description: 'NovaSparks is a company surfaced as a portfolio company of partech and added to the API
-  Evangelist network as a stub for enrichment. Sector: Infrastructure SaaS. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'NovaSparks builds ultra-low-latency FPGA market data solutions for banks, trading firms,
+  and electronic markets. Its NovaTick ticker plant, delivered as a hardware appliance or PCIe card,
+  normalizes and distributes real-time feeds across global equities, options (OPRA), and other asset
+  classes with deterministic nanosecond latency. Integration is via a proprietary ultra-low-latency
+  C++ Software API and the NovaSparks Wire Format (NSWF), a normalized message protocol whose full
+  specification is provided to banks and trading firms under NDA rather than published publicly.
+  NovaSparks is now part of Exegy. Surfaced as a portfolio company of Partech.'
 url: https://raw.githubusercontent.com/api-evangelist/novasparks/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Infrastructure Saas
+- Financial Services
+- Market Data
+- FPGA
+- Low Latency
+- Trading
+- Hardware
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +47,14 @@ maintainers:
 common:
 - type: Website
   url: https://novasparks.com/
+- type: Documentation
+  url: https://novasparks.com/api_or_wireformat/
+- type: PrivacyPolicy
+  url: https://novasparks.com/privacy-cookie-policy/
+- type: DomainSecurity
+  url: security/novasparks-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
