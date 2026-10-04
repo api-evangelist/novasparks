@@ -45,7 +45,7 @@ modified: '2026-07-20'
 tags:
 - Company
 - Infrastructure Saas
-- Financial-Services
+- Financial Services
 - Market Data
 - FPGA
 - Low Latency
@@ -60,6 +60,7 @@ tags_raw:
 - Low Latency
 - Trading
 - Hardware
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
